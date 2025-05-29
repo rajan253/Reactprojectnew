@@ -1,0 +1,22 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #828EC6;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .header a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .buttonx {
+ margin-right: -980px;
+
+  }

@@ -1,0 +1,16 @@
+/* MainLayout.css */
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .main {
+    display: flex;
+    flex: 1;
+  }
+   .content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f3f4f6; 
+  }
+   

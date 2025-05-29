@@ -1,0 +1,56 @@
+/* SideMenu.css */
+.side-menu {
+    height: 100vh;
+  /*  position: fixed;*/
+    top: 0;
+    left: 0;
+    background-color: #66A7AD;
+    overflow-y: auto;
+    padding: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  /* Default size (desktop) */
+  .side-menu {
+    width: 250px;
+  }
+  
+  /* Medium screens (tablet) */
+  @media (max-width: 1024px) {
+    .side-menu {
+      width: 200px;
+    }
+  }
+  
+  /* Small screens (mobile) */
+  @media (max-width: 768px) {
+    .side-menu {
+      width: 160px;
+    }
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .side-menu li {
+    margin-bottom: 20px;
+  }
+  
+  .side-menu li div {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submenu {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .submenu li a {
+    text-decoration: none;
+    /* color: #333; */
+    color: snow;
+  }
+  
